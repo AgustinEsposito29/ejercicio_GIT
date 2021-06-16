@@ -1,0 +1,227 @@
+/* Grid View 12 columnas */
+* { box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    margin:auto;
+    /* border: 1px solid red; */
+  }
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row{
+    align-content: center;
+    text-align: center; 
+  }
+
+  .header{
+    background-image: url("img/header.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .nav-header{
+    float: right;
+    border: none;
+  }
+
+  .nav-header li{
+      display:inline-block;
+      padding: 10px;
+      margin: 2px;
+  }
+
+  .nav-header li a{
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 1.5vw;
+
+  }
+
+  .header h1{
+      color: white;
+      margin: 15px auto;
+      font-size: 2vw;
+
+  }
+
+  .header-titulo{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+.header-titulo p{
+    font-size: 2vw;
+    color: #fff;
+}
+
+
+.card img{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3,
+.card p,
+.card-anuncio h2,
+.card-anuncio p { text-align: center;}
+
+.row-anuncios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-anuncio{
+    border-radius: 10px;
+    background-color: rgb(226, 223, 223);
+    margin: 0px 0px;
+}
+.card-anuncio img{
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+} 
+
+.card-anuncio .precio{
+    text-align: left;
+    color: rgb(16, 190, 16)
+}
+
+.btn-producto{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(238, 178, 67);
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    font-size: 1em;
+}
+
+.venta-img{
+    background-color: blue;
+    height: 50%;
+}
+
+.row-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.btn-vertodo{
+    padding: 15px;
+    width: 15%;
+    border-radius: 2px;
+    background-color: rgb(25, 143, 35);
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    font-size: 1.2em;
+}
+
+.encuentra{
+    background-image: url("img/encuentra.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+}
+
+.encuentra h1{
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+#btn-contacto{
+    border-radius: 2px;
+    background-color: rgb(238, 178, 67);
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.encuentra p{
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer{
+    background-color: grey;
+}
+footer ul{
+    float: left;
+}
+footer ul li{
+    display:inline-block;
+    padding: 5px;
+}
+
+footer ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+footer p{
+    float: right;
+    color: white;
+}
+
+ .iconos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-group{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+
